@@ -7,7 +7,7 @@
 
 2. **File Placement**
    - Make sure that the downloaded file is placed in the same directory as the scripts.
-   - Ensure the downloaded file is named `eff.org_files_2016_07_18_eff_large_wordlist.txt`. You can change the filename if needed, but follow any specific naming conventions required by the scripts.
+   - Ensure the downloaded file is named `eff.org_files_2016_07_18_eff_large_wordlist.txt`. Alternatively you can change filename in `make.py`.
 
 3. **Run `make.py`**
    - Execute the `./make.py` script in your terminal.
@@ -15,5 +15,5 @@
 
 4. **Run `pw.py`**
    - Execute the `./pw.py` script in your terminal.
-   - This script will open `words.pkl` and randomly print out 8 words as a passphrase.
+   - This script will open `words.pkl` and randomly print out 8 words as a passphrase. You can change word count and separator from `pw.py`
    - Note that the downloaded EFF text file is not used by this script.
